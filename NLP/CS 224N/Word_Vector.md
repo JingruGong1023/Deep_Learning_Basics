@@ -9,13 +9,13 @@ The first and arguably most important common denominator across all NLP tasks is
 - [2. SVD Based Methods](#SVD-Based-Methods)
   - [2.1 Word-Document Matrix](#Word-Document_Matrix)
   - [2.2 Applying SVD to the cooccurrence matrix](#Applying-SVD-to-the-cooccurrence-matrix)
-- [3. Iteration Based Method - Word2vec](#Iteration Based Method - Word2vec)
+- [3. Iteration Based Method - Word2vec](#Iteration-Based-Method - Word2vec)
   - [3.1 Skip-Gram](#Skip-Gram)
-  - [3.2 The skip-Gram model with Negative Sampling](#The skip-Gram model with Negative Sampling)
+  - [3.2 The skip-Gram model with Negative Sampling](#The-skip-Gram-model-with-Negative-Sampling)
 
 - [4. GloVe (Global vectors for word representation)](#GloVe (Global vectors for word representation))
-- [5. How to evaluate word vectors?](#How to evaluate word vectors?)
-- [6. Improving Word Representations Via Global Context And Multiple Word Prototypes](#Improving Word Representations Via Global Context And Multiple Word Prototypes)
+- [5. How to evaluate word vectors?](#How-to-evaluate-word-vectors?)
+- [6. Improving Word Representations Via Global Context And Multiple Word Prototypes](#Improving-Word-Representations-Via-Global-Context-And-Multiple-Word-Prototypes)
 
 ​	
 
