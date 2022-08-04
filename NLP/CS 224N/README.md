@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the notes taken from Stanford CS224n.
+This is the notes taken from Stanford CS224n, combining my own collected notes
 
 Assignments I completed for each lecture are included below
 
@@ -15,7 +15,6 @@ All the assignments will be done in **Pytorch**
 ### Lecture
 
 - [Word Vectors](Word_Vector.md)
-- 
 
 
 
