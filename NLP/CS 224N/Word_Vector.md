@@ -7,10 +7,10 @@ The first and arguably most important common denominator across all NLP tasks is
 - [1. Basic Word Vectors](#Word-Vectors)
 
 - [2. SVD Based Methods](#SVD-Based-Methods)
-  -  [2.1 Word-Document Matrix](#Word-Document Matrix)
+  - [2.1 Word-Document Matrix](#Word-Document Matrix)
   - [2.2 Applying SVD to the cooccurrence matrix](#Applying SVD to the cooccurrence matrix)
 - [3. Iteration Based Method - Word2vec](#Iteration Based Method - Word2vec)
-  - [3.1 Skip-Gram](# Skip-Gram)
+  - [3.1 Skip-Gram](#Skip-Gram)
   - [3.2 The skip-Gram model with Negative Sampling](#The skip-Gram model with Negative Sampling)
 
 - [4. GloVe (Global vectors for word representation)](#GloVe (Global vectors for word representation))
@@ -37,7 +37,7 @@ We represent each word as a completely independent entity. As we previously disc
 
 For this class of methods to find word embeddings (otherwise known as word vectors), we first loop over a massive dataset and accumulate word co-occurrence counts in some form of a matrix X, and then perform Singular Value Decomposition on X to get a USV^T^ decomposition. We then use the rows of U as the word embeddings for all words in our dictionary. Let us discuss a few choices of X.
 
-#### *Word-Document Matrix*
+### Word-Document Matrix
 
 As our first attempt, we make the bold conjecture that **words that are related will often appear in the same documents.** For instance, "banks", "bonds", "stocks", "money", etc. are probably likely to appear together. 
 
@@ -47,7 +47,7 @@ But "banks", "octopus", "banana", and "hockey" would probably not consistently a
 	1. for each time word i appears in document j, we add one to entry Xij. This is obviously a very large matrix (R^|V|×M^) 
 	1. it scales with the number of documents (M). So perhaps we can try something better.
 
-#### *Applying SVD to the cooccurence matrix*
+### Applying SVD to the cooccurence matrix
 
 example for cooccurence matrix:
 
