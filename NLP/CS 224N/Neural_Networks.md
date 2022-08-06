@@ -1,7 +1,7 @@
 ## Table-of-Contents
 
 - [1. Math Details](#Math-Details)
-  - [1.1 DL Classification Task: Named Entity Regonition](#DL-Classification-Task:-Named-Entity-Regonition)
+  - [1.1 DL Classification Task: Named Entity Regonition](#DL-Classification-Task-Named-Entity-Regonition)
 
 
 
@@ -11,11 +11,11 @@
 
 **This section will go through the NN math details through examples**
 
-### DL Classification Task: Named Entity Regonition
+### DL Classification Task Named Entity Regonition
 
 Task: **find** and **classify** names in text, for example:
 
-Last night , Paris Hilton wowed in a sequin gown in April 1989. $\rarr$ Here, **Paris** and **Hilton** will be classify as ***PERSON*** and **April** and **1989** will be classify as ***DATE***
+Last night , Paris Hilton wowed in a sequin gown in April 1989. ->  Here, **Paris** and **Hilton** will be classify as ***PERSON*** and **April** and **1989** will be classify as ***DATE***
 
 **Possible uses:**
 
@@ -31,11 +31,11 @@ Last night , Paris Hilton wowed in a sequin gown in April 1989. $\rarr$ Here, **
 
 Train `logistic classifier` on **hand-labeled** data to classify center word **{yes/no}** for each class based on a concatenation of word vectors in a window (In reality, we should use Softmax instead of Logistic, but here just to keep it simple)
 
-	- To classify all words: run classifier for **each class** on the vector centered on **each word** in the sentence
+- To classify all words: run classifier for **each class** on the vector centered on **each word** in the sentence
 
 For example, to classify ***Paris*** in the sentence below, as +/- location, with **window length = 2**
 
-$X_{window} = [x_{museums} \ x_{in} \ x_{Paris} \ x_{are} \ x_{amazing}]^T$ $\rarr$ resultsing vector  $X_{window} = x \in \ R^{5d}$  $\rarr$ a column vector!
+$X_{window} = [x_{museums} \ x_{in} \ x_{Paris} \ x_{are} \ x_{amazing}]^T$ -> resultsing vector  $X_{window} = x \in \ R^{5d}$  -> a column vector!
 
 #### Neural Classification
 
