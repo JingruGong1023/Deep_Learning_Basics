@@ -1,7 +1,7 @@
 ## Table-of-Contents
 
 - [1. Math Details](#Math-Details)
-  - [1.1 DL Classification Task: Named Entity Regonition](#DL-Classification-Task\:\Named-Entity-Regonition)
+  - [1.1 DL Classification Task: Named Entity Regonition](#DL-Classification-Task-Named-Entity-Regonition)
 
 
 
@@ -11,7 +11,7 @@
 
 **This section will go through the NN math details through examples**
 
-### DL Classification Task Named Entity Regonition
+### DL Classification Task: Named Entity Regonition
 
 Task: **find** and **classify** names in text, for example:
 
