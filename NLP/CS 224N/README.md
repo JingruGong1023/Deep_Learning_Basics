@@ -15,6 +15,7 @@ All the assignments will be done in **Pytorch**
 ### Lecture
 
 - [Word Vectors](Word_Vector.md)
+- [Backprop and Neural Networks](Neural_Networks.md)
 
 
 
