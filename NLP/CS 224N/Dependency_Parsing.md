@@ -82,7 +82,7 @@ Though we have different types of **ambiguity** in human languages
 
 Dependency syntax postulates that syntactic structure consists of relations between lexical items, normally binary asymmetric relations (“arrows”) called **dependencies**
 
-<img src="../../image/Screen Shot 2022-08-07 at 1.55.38 PM.png" alt="Screen Shot 2022-08-07 at 1.55.38 PM" style="zoom:25%;" />
+<img src="../../image/Screen Shot 2022-08-07 at 1.55.38 PM.png" alt="Screen Shot 2022-08-07 at 1.55.38 PM" style="zoom:15%;" />
 
 The arrows are commonly typed with the name of grammatical relations (subject, prepositional object, apposition, etc.)
 
