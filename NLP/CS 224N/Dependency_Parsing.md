@@ -196,7 +196,7 @@ $Configuration c = (s,b,A)$
 - b(buffer): records what's not looked at all by our algorithm
 - A(set of arcs): records the predictions, namely how arrows jump between the words in a sentence starting from ROOT
 
-<img src="../../image/Screen Shot 2022-08-07 at 2.58.29 PM.png" alt="Screen Shot 2022-08-07 at 2.58.29 PM"  height="25%" width="25%" />
+<img src="../../image/Screen Shot 2022-08-07 at 2.58.29 PM.png" alt="Screen Shot 2022-08-07 at 2.58.29 PM"  height="45%" width="45%" />
 
 The above chart shows how an arc-standard system deals with the sentence: "He has good control."
 
