@@ -82,17 +82,17 @@ Though we have different types of **ambiguity** in human languages
 
 Dependency syntax postulates that syntactic structure consists of relations between lexical items, normally binary asymmetric relations (“arrows”) called **dependencies**
 
-<img src="../../image/Screen Shot 2022-08-07 at 1.55.38 PM.png" alt="Screen Shot 2022-08-07 at 1.55.38 PM" style="zoom:15%;" height="48" width="48" />
+<img src="../../image/Screen Shot 2022-08-07 at 1.55.38 PM.png" alt="Screen Shot 2022-08-07 at 1.55.38 PM" style="zoom:15%;" height="25%" width="25%" />
 
 The arrows are commonly typed with the name of grammatical relations (subject, prepositional object, apposition, etc.)
 
 *Some of the Universal Dependency relations ([de Marneffe et al., 2014](http://www.lrec-conf.org/proceedings/lrec2014/pdf/1062_Paper.pdf))*
 
-<img src="../../image/Screen Shot 2022-08-07 at 1.55.53 PM.png" alt="Screen Shot 2022-08-07 at 1.55.53 PM" style="zoom:25%;" />
+<img src="../../image/Screen Shot 2022-08-07 at 1.55.53 PM.png" alt="Screen Shot 2022-08-07 at 1.55.53 PM"  height="25%" width="25%" />
 
 We can always show this structure in a sentence:
 
-<img src="../../image/Screen Shot 2022-08-07 at 1.57.54 PM.png" alt="Screen Shot 2022-08-07 at 1.57.54 PM" style="zoom:20%;" />
+<img src="../../image/Screen Shot 2022-08-07 at 1.57.54 PM.png" alt="Screen Shot 2022-08-07 at 1.57.54 PM"  height="25%" width="25%" />
 
 Some people draw the arrows one way; some the other way! 
 
@@ -196,7 +196,7 @@ $Configuration c = (s,b,A)$
 - b(buffer): records what's not looked at all by our algorithm
 - A(set of arcs): records the predictions, namely how arrows jump between the words in a sentence starting from ROOT
 
-<img src="../../image/Screen Shot 2022-08-07 at 2.58.29 PM.png" alt="Screen Shot 2022-08-07 at 2.58.29 PM" style="zoom:25%;" />
+<img src="../../image/Screen Shot 2022-08-07 at 2.58.29 PM.png" alt="Screen Shot 2022-08-07 at 2.58.29 PM"  height="25%" width="25%" />
 
 The above chart shows how an arc-standard system deals with the sentence: "He has good control."
 
@@ -232,7 +232,7 @@ the Network uses concatenated embeddings for **[words/POS tags/arc labels]** as 
 
 The training set is generated using the**“shortest stack” **oracle which always prefers **LEFT-ARC** over **SHIFT**. The detail is not important here, but we should know that for each possible configuration there’s a ground truth transition. And we train our neural network parser in a **supervised** fashion.
 
-<img src="../../image/Screen Shot 2022-08-07 at 4.14.20 PM.png" alt="Screen Shot 2022-08-07 at 4.14.20 PM" style="zoom:25%;" />
+<img src="../../image/Screen Shot 2022-08-07 at 4.14.20 PM.png" alt="Screen Shot 2022-08-07 at 4.14.20 PM"  height="35%" width="35%" />
 
 Steps in training:
 
@@ -253,7 +253,7 @@ Traditional ML classifiers (including `Naïve Bayes, SVMs, logistic regression a
 
 we use non-linear activation functions(ReLU, Sigmoid) to deal with the data and get it ready for the linear classifier(softmax) in the output layer
 
-<img src="../../image/Screen Shot 2022-08-07 at 4.17.14 PM.png" alt="Screen Shot 2022-08-07 at 4.17.14 PM" style="zoom:40%;" />
+<img src="../../image/Screen Shot 2022-08-07 at 4.17.14 PM.png" alt="Screen Shot 2022-08-07 at 4.17.14 PM"  height="40%" width="40%" />
 
 Neural networks can accurately determine the **structure of sentences**, supporting interpretation
 
@@ -269,7 +269,7 @@ Compute a score for every possible dependency for each word
 - And repeat the same process for each other word
 - Robust, but **slow**
 
-<img src="../../image/Screen Shot 2022-08-07 at 4.21.27 PM.png" alt="Screen Shot 2022-08-07 at 4.21.27 PM" style="zoom:25%;" />
+<img src="../../image/Screen Shot 2022-08-07 at 4.21.27 PM.png" alt="Screen Shot 2022-08-07 at 4.21.27 PM"  height="25%" width="25%" />
 
 [details](https://medium.com/swlh/building-a-neural-graph-based-dependency-parser-f54fb0fbbf8d)
 
