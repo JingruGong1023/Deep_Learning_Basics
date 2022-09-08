@@ -13,15 +13,15 @@ In this chapter we will review some basics of Neural Networks , then dig deep fo
 - [Some recap of Neural Networks](#Some_recap_of_Neural_Networks)
   - [Regularization](#Regularization)
   - [Dropout](#Dropout)
-  - [Parameter Initialization](#Parameter Initialization)
+  - [Parameter Initialization](#Parameter-Initialization)
 - [Language Modeling](#Language_Modeling)
-  - [n-gram Language Models](#n-gram Language Models)
+  - [n-gram Language Models](#n-gram-Language-Models)
 - [RNNs](#RNNs)
-  - [RNN Language Models](#RNN Language Models)
+  - [RNN Language Models](#RNN-Language-Models)
 
-- [Exploding and Vanishing Gradients](#Exploding and Vanishing Gradients)
+- [Exploding and Vanishing Gradients](#Exploding-and-Vanishing-Gradients)
 - [LSTMs](#LSTMs)
-- [Bidirectional and multi-layer RNN](#Bidirectional and multi-layer RNN)
+- [Bidirectional and multi-layer RNN](#Bidirectional-and-multi-layer-RNN)
 
 
 
