@@ -16,8 +16,8 @@ All the assignments will be done in **Pytorch**
 
 - [Word Vectors](Word_Vector.md)
 - [Backprop and Neural Networks](Neural_Networks.md)
-- [Dependency Parsing](Dependency Parsing.md)
-- [Recurrent_Neural_Networks](#Recurrent_Neural_Networks.md)
+- [Dependency Parsing](Dependency-Parsing.md)
+- [Recurrent_Neural_Networks](Recurrent_Neural_Networks.md)
 
 
 
